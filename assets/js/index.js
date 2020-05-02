@@ -12,9 +12,18 @@ request.responseType = 'json';
 // レスポンスが返ってきたときの処理
 request.onload = function() {
     var data = this.response;
-    console.log(data);
+    // console.log(data);
+    // document.write(JSON.stringify(data));
+    
+    // 2個だけデータを取得する
+    for (var i = 0; i < 2; i++) {
+        console.log(JSON.stringify(data[i]));
+    }
 }
 
+
+
+// var element = document.getElementById
 
 // request.onreadystatechange = function() {
 //     if(this.readyState === 4) {
