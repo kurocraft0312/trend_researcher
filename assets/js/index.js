@@ -1,14 +1,15 @@
 "use strict";
 
-//XMLHttpRequestオブジェクトの作成
+// XMLHttpRequestオブジェクトの作成
 var request = new XMLHttpRequest();
 
 // URLを開く
 request.open('GET','https://ghapi.huchen.dev/repositories',true);
 
-// レスポンスが返ってきたときの処理
+// レスポンスをjson形式で吐き出し
 request.responseType = 'json';
 
+// レスポンスが返ってきたときの処理
 request.onload = function() {
     var data = this.response;
     console.log(data);
