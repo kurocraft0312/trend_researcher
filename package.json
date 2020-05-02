@@ -1,0 +1,27 @@
+{
+  "name": "trend_researcher",
+  "version": "1.0.0",
+  "description": "トレンドリサーチツールです。",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurocraft0312/trend_researcher.git"
+  },
+  "keywords": [
+    "trend",
+    "research"
+  ],
+  "author": "kurocraft0312",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurocraft0312/trend_researcher/issues"
+  },
+  "homepage": "https://github.com/kurocraft0312/trend_researcher#readme",
+  "devDependencies": {
+    "nw": "^0.45.4"
+  }
+}
