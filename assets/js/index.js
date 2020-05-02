@@ -17,7 +17,7 @@ request.onload = function() {
     
     // 2個だけデータを取得する
     for (var i = 0; i < 2; i++) {
-        console.log(JSON.stringify(data[i]));
+        document.write(JSON.stringify(data[i]));
     }
 }
 
